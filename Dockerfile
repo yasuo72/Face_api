@@ -19,4 +19,4 @@ COPY . .
 # Railway provides $PORT; default to 8000 locally
 ENV PORT=8000
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "${PORT}"]
+CMD uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000}
