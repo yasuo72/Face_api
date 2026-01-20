@@ -6,3 +6,5 @@ pillow==10.3.0
 tensorflow-cpu==2.10.0
 keras==2.10.0
 numpy==1.26.4
+pymongo==4.10.1
+cryptography==43.0.1
